@@ -1,5 +1,5 @@
 {
-  "name": "@lujun/lazy-image",
+  "name": "react-hook-lazy-image",
   "version": "1.0.0",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
   "main": "./src/index.tsx",
