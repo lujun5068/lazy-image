@@ -5,21 +5,21 @@
 - 兼容主流浏览器
 - 适用于React框架，因为使用了React Hooks，请确保React版本高于16.8.X
 
-[查看示例](www.baidu.com)
+<!-- [查看示例](www.baidu.com) -->
 
 ## 安装
 ```jsx
 // 使用yarn安装
-yarn add LazyImage
+yarn add lazy-image
 
 // 使用npm安装
-npm install LazyImage --save
+npm install lazy-image --save
 ```
 
 ## 使用
 ```jsx
 import React from 'react';
-import LazyImage from './LazyImage';
+import LazyImage from 'lazy-image';
 
 const list = [ // image src url ...];
 
