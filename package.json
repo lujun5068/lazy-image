@@ -2,7 +2,7 @@
   "name": "lazy-image",
   "version": "1.0.0",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
-  "main": "index.js",
+  "main": "./src/index.tsx",
   "scripts": {
     "build": "rm -rf dist/ && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,7 +17,7 @@
     "懒加载",
     "图片懒加载"
   ],
-  "author": "LuJun",
+  "author": "lujun_smile",
   "license": "MIT",
   "dependencies": {
     "react": "^16.12.0",
