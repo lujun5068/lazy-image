@@ -1,9 +1,10 @@
-# LazyImage 图片懒加载
+# react-hook-lazy-image 图片懒加载
 一个应用React Hooks基于IntersectionObserver API实现的图片懒加载组件，具有如下特点：
 
 - 简单好用，配置灵活
 - 兼容主流浏览器
-- 适用于React框架，因为使用了React Hooks，请确保React版本高于16.8.X
+- 使用React Hooks实现
+- 使用TypeScript
 
 <!-- [查看示例](www.baidu.com) -->
 
