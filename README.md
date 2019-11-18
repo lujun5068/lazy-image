@@ -10,16 +10,16 @@
 ## 安装
 ```jsx
 // 使用yarn安装
-yarn add lazy-image
+yarn add @lujun/lazy-image
 
 // 使用npm安装
-npm install lazy-image --save
+npm install @lujun/lazy-image --save
 ```
 
 ## 使用
 ```jsx
 import React from 'react';
-import LazyImage from 'lazy-image';
+import LazyImage from '@lujun/lazy-image';
 
 const list = [ // image src url ...];
 
