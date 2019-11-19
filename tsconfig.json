@@ -2,11 +2,11 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
-    "module": "commonjs",
     "target": "es5",
-    "lib": ["es6", "dom"],
-    "sourceMap": true,
     "jsx": "react",
+    "lib": ["dom", "esnext"],
+    "module": "esnext",
+    "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "rootDir": "src",
@@ -21,6 +21,9 @@
     "example",
     "node_modules",
     "build",
+    "dist",
+    "lib",
+    "tests"
   ]
 }
 

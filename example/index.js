@@ -23,10 +23,10 @@ const list = [
 
 
 
-const LazyLoad:React.FC<any> = () => {
+const LazyLoad = () => {
   const clientHeight = window.innerHeight;
 
-  const style = {height: 300, width: 400, border: '1px solid #000', margin: '10px'};
+  const style = {height: 300, width: 400, border: '1px solid #000', margin: '10px auto'};
 
   return (
     <ul style={{height: `${clientHeight-100}px`, overflow: 'auto'}}>
