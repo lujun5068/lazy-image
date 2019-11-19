@@ -1,6 +1,6 @@
 {
   "name": "react-hook-lazy-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
   "main": "./src/index.tsx",
   "scripts": {
@@ -23,7 +23,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-hook-lazy-image": "^1.0.0"
+    "react-hook-lazy-image": "^1.0.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
