@@ -1,12 +1,13 @@
 const path = require('path');
-const webpack = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
 
 module.exports = {
-  mode: 'production',
-  entry: './src/index.tsx',
+  mode: 'development',
+  entry: './example/index.tsx',
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, './dist'),
+    filename: '[name].js'
   },
   devtool: 'source-map',
   resolve: {
@@ -31,7 +32,15 @@ module.exports = {
       }
     ]
   },
-  plugins: [
-    new webpack.optimize.ModuleConcatenationPlugin(),
+  plugin: [
+    new HtmlWebpackPlugin({
+      template: './example/index.html'
+    })
   ],
+  devServer: {
+    stats: { chunks: false },
+    contentBase: './example',
+    port: 4000,
+    hot: true
+  }
 }

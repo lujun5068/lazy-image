@@ -4,6 +4,7 @@
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
   "main": "./src/index.tsx",
   "scripts": {
+    "dev": "webpack-dev-server --config ./webpack.dev.js -d --history-api-fallback --no-inline --progress --colors --host 127.0.0.1",
     "build": "rm -rf dist/ && webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -46,6 +47,8 @@
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.1.5",
+    "html-webpack-plugin": "next"
   }
 }

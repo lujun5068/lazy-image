@@ -1,5 +1,6 @@
 import React from 'react';
-import LazyImage from '../src/index.tsx';
+import { render } from 'react-dom';
+import LazyImage from '../src/index';
 
 const list = [
   'https://cdn.imgbin.com/1/6/10/imgbin-arctic-wolf-furry-fandom-carnivora-red-wolf-others-ZHnTC2tmQMPzs37cWQ7tPqp4R.jpg',
@@ -38,5 +39,4 @@ const LazyLoad:React.FC<any> = () => {
   )
 }
 
-
-export default LazyLoad;
+render(<LazyLoad /> , document.getElementById('root'));
