@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
-import LazyImage from '../src/index';
+// import LazyImage from '../src/index';
+import LazyImage from '../dist/index';
 // import LazyImage from 'react-hook-lazy-image';
 
 const list = [

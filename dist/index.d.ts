@@ -1,9 +1,9 @@
 import React from 'react';
 interface LazyImageProps {
     /**
-     * 图片的真实src
+     * 图片的真实src,不传默认显示占位图
      */
-    src: string;
+    src?: string;
     /**
      * 默认的占位图片，可以自己传，默认使用lazyImage的占位图
      */

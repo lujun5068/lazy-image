@@ -23,8 +23,12 @@ interface LazyImageProps {
 }
 
 const defaultUrl = require('./assets/loading.png');
+const defaultImgStyle:React.CSSProperties = {
+  width: 300,
+  height: 200
+}
 
-const LazyImage:React.FC<LazyImageProps> = ({src, style, defaultSrc= defaultUrl, options={}}) => {
+const LazyImage:React.FC<LazyImageProps> = ({src, style=defaultImgStyle, defaultSrc= defaultUrl, options={}}) => {
   const imgRef = useRef(null);
 
   const setDefaultSrc = () => {
