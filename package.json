@@ -1,11 +1,14 @@
 {
   "name": "react-hook-lazy-image",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
-  "main": "./src/index.tsx",
+  "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "dev": "webpack-dev-server --config ./webpack.dev.js -d --history-api-fallback --no-inline --progress --colors --host 127.0.0.1",
     "build": "rm -rf dist/ && webpack",
+    "pub": "npm run build && npm publish",
+    "npm-build": "rm -rf lib && babel src -d lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": "https://github.com/lujun5068/lazy-image",
@@ -23,7 +26,7 @@
   "dependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-hook-lazy-image": "^1.0.1"
+    "react-hook-lazy-image": "^1.0.6"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.0",
@@ -50,7 +53,7 @@
     "babel-preset-stage-3": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "file-loader": "^4.2.0",
-    "html-webpack-plugin": "next",
+    "html-webpack-plugin": "^4.0.0-beta.11",
     "object-assign": "^4.1.1",
     "ts-loader": "^6.2.1",
     "typescript": "^3.7.2",
