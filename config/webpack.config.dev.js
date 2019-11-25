@@ -17,7 +17,6 @@ const devConfig = {
     })
   ],
   devServer: {
-    contentBase: '../example',
     port: 4000,
     open: true,
     hot: true

@@ -1,6 +1,6 @@
 {
   "name": "react-hook-lazy-image",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
   "main": "dist/index.js",
   "files": [
