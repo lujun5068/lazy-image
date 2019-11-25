@@ -7,7 +7,7 @@ const prodConfig = {
   mode: 'production',
   entry: './src/index.tsx',
   output: {
-    publicPath: '/node_modules/react-hook-lazy-image/dist/',
+    publicPath: '/',
     filename: 'index.js',
     path: path.resolve(__dirname, '../dist'),
     libraryTarget: 'umd',
