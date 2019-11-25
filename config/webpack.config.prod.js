@@ -7,6 +7,7 @@ const prodConfig = {
   mode: 'production',
   entry: './src/index.tsx',
   output: {
+    publicPath: './',
     filename: 'index.js',
     path: path.resolve(__dirname, '../dist'),
     libraryTarget: 'umd',

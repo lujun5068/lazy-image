@@ -23,6 +23,7 @@ interface LazyImageProps {
 }
 
 const defaultUrl = require('./assets/loading.png');
+
 const defaultImgStyle:React.CSSProperties = {
   width: 300,
   height: 200

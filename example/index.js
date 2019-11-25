@@ -1,8 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-// import LazyImage from '../src/index';
-import LazyImage from '../dist/index';
-// import LazyImage from 'react-hook-lazy-image';
+import LazyImage from '../src/index';
 
 const list = [
   'https://cdn.imgbin.com/1/6/10/imgbin-arctic-wolf-furry-fandom-carnivora-red-wolf-others-ZHnTC2tmQMPzs37cWQ7tPqp4R.jpg',
