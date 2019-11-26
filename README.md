@@ -1,10 +1,26 @@
+
+<p align="center">
+  <img alt="lazyImage" src="./src/assets/loading.png" width="200">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/npm/v/@alifd/next.svg">
+  <img src="https://img.shields.io/npm/dm/@alifd/next.svg">
+  <a href="https://codecov.io/gh/alibaba-fusion/next"><img src="https://codecov.io/gh/alibaba-fusion/next/branch/master/graph/badge.svg?token=FSufKVDhmT"></a>
+  <a href="https://travis-ci.com/alibaba-fusion/next"><img src="https://travis-ci.com/alibaba-fusion/next.svg?token=KAYresHL1UPaaLzUYyx6&branch=master"></a>
+  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
+  <a href="https://github.com/lujun5068/lazy-image/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
+</p>
+
 # react-hook-lazy-image 图片懒加载
+
 一个应用React Hooks基于IntersectionObserver API实现的图片懒加载组件，具有如下特点：
 
 - 简单好用，配置灵活
 - 兼容主流浏览器
 - 使用React Hooks实现
 - 使用TypeScript
+
+
 
 <!-- [查看示例](www.baidu.com) -->
 
