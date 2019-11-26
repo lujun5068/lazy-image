@@ -49,7 +49,7 @@ export default LazyLoad;
 | --- | --- | --- | --- | --- |
 | src | string | 否 | - | 图片的真实src,不传默认显示占位图 |
 | defaultSrc | string | 否 | LazyImage占位图 | 默认渲染的占位图src地址 |
-| style | object | 否 | - | 图片样式 |
+| style | object | 否 | {<br />  width: 300,<br />  height: 200,<br />  border: '1px solid #ccc'<br />} | 图片样式 |
 | options | object | 否 | - | 自定义配置，通过配置可以指定图片与特定的父级元素交叉时才去加载真实图片，祥见[IntersectionObserver](https://developer.mozilla.org/zh-CN/docs/Web/API/IntersectionObserver/IntersectionObserver) |
 
 
