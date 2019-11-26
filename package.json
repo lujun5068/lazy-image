@@ -1,6 +1,6 @@
 {
   "name": "react-hook-lazy-image",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A lazy loading image component that applies React Hooks based on IntersectionObserver API",
   "main": "dist/index.js",
   "files": [
@@ -9,7 +9,8 @@
   "scripts": {
     "build": "rm -rf dist && webpack --config ./config/webpack.config.prod.js",
     "pub": "npm run build && npm publish",
-    "dev": "webpack-dev-server --config ./config/webpack.config.dev.js"
+    "dev": "webpack-dev-server --config ./config/webpack.config.dev.js",
+    "report-coverage": "codecov"
   },
   "repository": "https://github.com/lujun5068/lazy-image",
   "keywords": [
