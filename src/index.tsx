@@ -25,10 +25,11 @@ const defaultUrl = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAADICAYAAA
 
 const defaultImgStyle:React.CSSProperties = {
   width: 300,
-  height: 200
+  height: 200,
+  border: '1px solid #ccc'
 }
 
-const LazyImage:React.FC<LazyImageProps> = ({src, style=defaultImgStyle, defaultSrc= defaultUrl, options={}}) => {
+const LazyImage:React.FC<LazyImageProps> = ({src= defaultUrl, style=defaultImgStyle, defaultSrc= defaultUrl, options={}}) => {
   const imgRef = useRef(null);
 
   const setDefaultSrc = () => {
@@ -42,7 +43,7 @@ const LazyImage:React.FC<LazyImageProps> = ({src, style=defaultImgStyle, default
     }
     return {
       setSrc() {
-        img.src = src || defaultSrc;
+        img.src = src;
       }
     }
   }
