@@ -3,11 +3,11 @@
   <img alt="lazyImage" src="./src/assets/loading.png" width="200">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/npm/v/@alifd/next.svg">
-  <img src="https://img.shields.io/npm/dm/@alifd/next.svg">
+  <img alt="GitHub package.json version" src="https://img.shields.io/github/package-json/v/lujun5068/lazy-image">
+  <img alt="npm" src="https://img.shields.io/npm/dt/react-hook-lazy-image">
   <a href="https://codecov.io/gh/alibaba-fusion/next"><img src="https://codecov.io/gh/alibaba-fusion/next/branch/master/graph/badge.svg?token=FSufKVDhmT"></a>
-  <a href="https://travis-ci.com/alibaba-fusion/next"><img src="https://travis-ci.com/alibaba-fusion/next.svg?token=KAYresHL1UPaaLzUYyx6&branch=master"></a>
-  <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg">
+  <a href="https://travis-ci.org/lujun5068/lazy-image"><img src="https://travis-ci.org/lujun5068/lazy-image.svg?branch=master"></a>
+  <img alt="npm bundle size" src="https://img.shields.io/bundlephobia/minzip/react-hook-lazy-image?color=green">
   <a href="https://github.com/lujun5068/lazy-image/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-brightgreen.svg"></a>
 </p>
 
