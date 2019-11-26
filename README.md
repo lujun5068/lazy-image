@@ -29,7 +29,7 @@
 yarn add react-hook-lazy-image
 
 // 使用npm安装
-npm install react-hook-lazy-image --save
+npm install react-hook-lazy-image -S
 ```
 
 ## 使用
